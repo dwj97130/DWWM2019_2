@@ -1,7 +1,15 @@
+h1 p {
+	font-family: "Verdana" sans-serif;
+}
+
+/* Encadrer */
+
 .active {
   background-color: #A69F98;
   color: black;
 }
+
+/* Menu de navigation */ 
 
 ul {
   position: -webkit-sticky; /* Safari */
@@ -9,11 +17,37 @@ ul {
   top: 0;
 }
 
-
-li {
-	list-style-type: none;
+nav ul {
+	display: flex;
+	justify-content: center;
 }
 
+/* listes */
+li {
+	list-style-type: none;
+	padding-right: 12px;
+}
+ /* liens */
 a {
+	font-size: 17px;
 	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#pictures {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+figure img {
+	width: 420px;
+	height: 280px;
 }

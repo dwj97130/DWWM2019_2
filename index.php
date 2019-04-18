@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
+<h1>Gwadabat</h1>
+<p>Gwadabat l'entreprise numéro 1 du BTP</p>
 <section id="pictures">
-	<h1>Gwadabat</h1>
-	<p>Gwadabat l'entreprise numéro 1 du BTP</p>
 	<figure>
 		<img src="images/brick.jpg" alt="Brique"/>
 		<figcaption>Briques en ciment</figcaption>
@@ -13,7 +13,7 @@
 	</figure>
 	<figure>
 		<img src="images/camion-toupie.jpg" alt="Camion toupie"/>
-		<figcaption>Camion toupie</figcaption>
+		<figcaption>Camion de ciment</figcaption>
 	</figure>
 	<figure>
 		<img src="images/parpaing.jpg" alt="Parpaing"/>
