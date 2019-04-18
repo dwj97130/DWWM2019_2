@@ -30,7 +30,7 @@ nav ul {
 /* listes */
 li {
 	list-style-type: none;
-	padding-right: 12px;
+	padding-right: 18px;
 }
  /* liens */
 a {
@@ -41,6 +41,7 @@ a {
 
 li a:hover {
   background-color: #E65F49;
+	padding: 8px;
 }
 h1 {
 	text-align: center;
