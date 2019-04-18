@@ -2,11 +2,11 @@ h1 p {
 	font-family: "Verdana" sans-serif;
 }
 
-/* Encadrer */
+/* Encadrer onglet du menu actif*/
 
 .active {
-  background-color: #A69F98;
-  color: black;
+  background-color: #C2C5C6;
+	padding: 8px;
 }
 
 /* Menu de navigation */ 
@@ -15,6 +15,11 @@ ul {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+}
+
+nav {
+	overflow: hidden;
+  background-color: #818586;
 }
 
 nav ul {
@@ -31,8 +36,12 @@ li {
 a {
 	font-size: 17px;
 	text-decoration: none;
+	color: white;
 }
 
+li a:hover {
+  background-color: #E65F49;
+}
 h1 {
 	text-align: center;
 }
