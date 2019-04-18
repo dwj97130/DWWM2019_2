@@ -2,3 +2,18 @@
   background-color: #A69F98;
   color: black;
 }
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
