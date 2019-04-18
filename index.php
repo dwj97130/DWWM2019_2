@@ -1,7 +1,16 @@
 <?php include 'header.php'; ?>
-
-<h1>Gwadabat</h1>
-<p>Gwadabat l'entreprise numéro 1 du BTP</p>
+<div class="entete">
+	<h1>Gwadabat</h1>
+	<p>Gwadabat l'entreprise numéro 1 du BTP !</p>
+</div>
+<h2>Nous sommes à votre service !</h2>
+<h3>Une équipe à votre écoute</h3>
+	<p>
+		Professionnel ou bricoleur amateur, vous pouvez nous contacter afin d’obtenir toutes les informations nécessaires pour réaliser vos travaux. Nous sommes à votre écoute afin d’accompagner vos projets et pour vous conseiller dans le choix de vos produits.
+		Contactez-nous par mail ou par téléphone afin d’obtenir les conseils de professionnels. 
+		Notre équipe vous assiste tout au long de votre projet afin de vous aider dans le choix des matériaux de construction.
+	</p>
+	
 <section id="pictures">
 	<figure>
 		<img src="images/brick.jpg" alt="Brique"/>

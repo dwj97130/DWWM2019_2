@@ -43,7 +43,7 @@ li a:hover {
   background-color: #E65F49;
 	padding: 8px;
 }
-h1 {
+h1, h2, h3, p{
 	text-align: center;
 }
 
