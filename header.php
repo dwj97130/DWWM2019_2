@@ -11,9 +11,9 @@
 		<nav>
 			<ul>
 				<li><a href="#" active><i class="fas fa-home">Accueil</i></a></li>
-				<li><a href="#">Articles</a></li>
-				<li><a href="#">Commandes</a></li>
-				<li><a href="#">Clients</a></li>
+				<li><a href="#article">Articles</a></li>
+				<li><a href="#commandes">Commandes</a></li>
+				<li><a href="#client">Clients</a></li>
 			</ul>
 		</nav>
 	</header>
