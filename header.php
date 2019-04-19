@@ -6,6 +6,7 @@
 	<title>Projet jouet</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/all.css">
+	<link rel=""
 </head>
 <body>
 	<header>

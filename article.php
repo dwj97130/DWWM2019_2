@@ -11,8 +11,8 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="index.php" class="active"><i class="fas fa-home">Accueil</i></a></li>
-					<li><a href="#">Articles</a></li>
+					<li><a href="index.php"><i class="fas fa-home">Accueil</i></a></li>
+					<li><a href="#" class="active">Articles</a></li>
 					<li><a href="#">Commandes</a></li>
 					<li><a href="#">Clients</a></li>
 				</ul>
