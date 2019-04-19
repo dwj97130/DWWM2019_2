@@ -12,7 +12,7 @@
 		<nav>
 			<ul>
 				<li><a href="#" class="active"><i class="fas fa-home">Accueil</i></a></li>
-				<li><a href="#">Articles</a></li>
+				<li><a href="article.php">Articles</a></li>
 				<li><a href="#">Commandes</a></li>
 				<li><a href="#">Clients</a></li>
 			</ul>
