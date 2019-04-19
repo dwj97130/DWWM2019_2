@@ -1,16 +1,20 @@
 <?php include 'header.php'; ?>
 
-<div class="entete">
-	<img class="logo" src="images/logo.png" alt="Gwadabat">
-	<p>Gwadabat, l'entreprise numéro 1 du BTP !</p>
+<div class="entete-1">
+	<div class="flex">
+		<img class="logo" src="images/logo.png" alt="Gwadabat">
+		<h1>Gwadabat, l'entreprise numéro 1 du BTP !</h1>
+	</div>
 </div>
-<h2>Nous sommes à votre service !</h2>
-<h3>Une équipe à votre écoute</h3>
+<div class="entete-2">
+	<h2>Nous sommes à votre service !</h2>
+	<h3>Une équipe à votre écoute</h3>
 	<p>
 		Professionnel ou bricoleur amateur, vous pouvez nous contacter afin d’obtenir toutes les informations nécessaires pour réaliser vos travaux. Nous sommes à votre écoute afin d’accompagner vos projets et pour vous conseiller dans le choix de vos produits.
 		Contactez-nous par mail ou par téléphone afin d’obtenir les conseils de professionnels. 
 		Notre équipe vous assiste tout au long de votre projet afin de vous aider dans le choix des matériaux de construction.
-	</p>
+	</p>	
+</div>
 	
 <section id="pictures">
 	<figure>
@@ -35,29 +39,4 @@
 	</figure>
 </section>
 
-<section id="articles">
-		<form action="traitement.php" method="post">
-			<label for="nom">Nom</label>
-			<input type="text" name="nom" id="nom"/><br/>
-			<label for="Quantite">Quantité</label>
-			<select name="quantites" id="quantite">
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="5">5</option>
-				<option value="6">6</option>
-				<option value="7">7</option>
-				<option value="8">8</option>
-				<option value="9">9</option>
-				<option value="10">10</option>
-			<label for="unités">Unité</label>
-			<select name="unité" id="unités">
-				<option value="1">m3</option>
-				<option value="2">kg</option>
-				<option value="3">l</option>
-			</select>
-		</form>
-</section>
 <?php include 'footer.php'; ?>
