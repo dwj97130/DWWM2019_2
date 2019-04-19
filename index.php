@@ -35,11 +35,11 @@
 	</figure>
 </section>
 
-<section id="artcles">
+<section id="articles">
 		<form action="traitement.php" method="post">
 			<label for="nom">Nom</label>
 			<input type="text" name="nom" id="nom"/><br/>
-			<label for="Quantite">Quantiter</label>
+			<label for="Quantite">Quantité</label>
 			<select name="quantites" id="quantite">
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -52,6 +52,11 @@
 				<option value="8">8</option>
 				<option value="9">9</option>
 				<option value="10">10</option>
+			<label for="unités">Unité</label>
+			<select name="unité" id="unités">
+				<option value="1">m3</option>
+				<option value="2">kg</option>
+				<option value="3">l</option>
 			</select>
 		</form>
 </section>
