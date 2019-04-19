@@ -43,12 +43,26 @@ li a:hover {
   background-color: #E65F49;
 	padding: 8px;
 }
-h1, h2, h3, p{
+h1, h2, h3, p {
 	text-align: center;
 }
 
 p {
 	text-align: center;
+}
+
+.entete {
+	display: flex; /* Pour l'aligner avec le logo */
+  bottom: 0;  
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  color: #000000; /* text en gris */
+	font-size: 36px;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	margin-right: 250px;
 }
 
 #pictures {

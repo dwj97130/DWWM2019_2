@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
+
 <div class="entete">
-	<h1>Gwadabat</h1>
-	<p>Gwadabat l'entreprise numéro 1 du BTP !</p>
+	<img class="logo" src="images/logo.png" alt="Gwadabat">
+	<p>Gwadabat, l'entreprise numéro 1 du BTP !</p>
 </div>
 <h2>Nous sommes à votre service !</h2>
 <h3>Une équipe à votre écoute</h3>
