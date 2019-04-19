@@ -78,16 +78,18 @@ li a:hover {
 	text-align: center;
 	width: 53%;
 }
+
 /*.entete-1 {
 	display: flex; /* Pour l'aligner avec le logo */
   /*bottom: 0;  */
-  /*background: rgb(0, 0, 0); /* Fallback color */*/
+  /*background: rgb(0, 0, 0); /* Fallback color */
   /*background: rgba(0, 0, 0, 0.2);  Black background with 0.5 opacity */
   /*color: #000000;  text en gris */
 	/*font-size: 36px;*/
 }
 
 /* Logo */ 
+
 .logo {
 	width: 100px;
 	height: 100px;
@@ -95,6 +97,7 @@ li a:hover {
 }
 
 /* Section Images */
+
 #pictures {
 	display: flex;
 	flex-wrap: wrap;
