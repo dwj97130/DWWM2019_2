@@ -26,16 +26,20 @@
 		<figcaption>Graviers</figcaption>
 	</figure>
 	<figure>
-		<img src="images/camion-toupie.jpg" alt="Camion toupie"/>
-		<figcaption>Camion de ciment</figcaption>
-	</figure>
-	<figure>
 		<img src="images/parpaing.jpg" alt="Parpaing"/>
 		<figcaption>Parpaing</figcaption>
 	</figure>
 	<figure>
+		<img src="images/treillis.jpg" alt="Treillis soudé béton"/>
+		<figcaption>Treillis soudé béton</figcaption>
+	</figure>
+	<figure>
 		<img src="images/sable.jpg" alt="Sable"/>
 		<figcaption>Sable</figcaption>
+	</figure>
+	<figure>
+		<img src="images/camion-toupie.jpg" alt="Camion toupie"/>
+		<figcaption>Camion de ciment</figcaption>
 	</figure>
 </section>
 
