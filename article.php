@@ -21,7 +21,7 @@
 		
 		 <!-- Formulaire à remplir -->
 		<section id="articles">
-			<form action="traitement.php" method="post">
+			<form action="traitement.php" onsubmit="return valider()" method="post" name="formArticle">
 				<legend>Articles</legend>
 				<fieldset>
 				<label for="nom">Nom</label>
@@ -33,6 +33,7 @@
 					<option value="8">8</option>
 					<option value="9">9</option>
 					<option value="10">10</option>
+				</select>
 				<label for="unités">Unité</label>
 				<select name="unité" id="unités">
 					<option value="1">m3</option>
@@ -40,12 +41,18 @@
 					<option value="3">l</option>
 				</select>
 				</fieldset>
+				<input class="btn1" type="submit" value="Valider la commande"/> <!-- Bouton Sauvegarder -->
 			</form>
 		</section>
 
-
+		<!-- Bouton téléchargement / Largeur auto -->
+		<a href="pdf/materiaux.pdf" download>
+		<button class="btn"><i class="fa fa-download"></i> Télécharger images</button>
+		</a>
+		
 		<footer>
 				<p>Copyright &copy Gwadabat Didi & Fran 2019</p>
 		</footer>
+	<script src="myScript.js"></script> 
 	</body>
 </html>

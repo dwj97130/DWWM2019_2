@@ -139,3 +139,36 @@ legend {
 	font-size: 18px;
 	font-weight: bold;
 }
+
+ /* Style bouton téléchargement */
+.btn {
+  background-color: #E65F49;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+	margin: 20px 0px 50px 512px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #de2b1f;
+} 
+
+/* Style bouton Valider */
+.btn1 {
+  background-color: #E65F49;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: #de2b1f;
+} 
