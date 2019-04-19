@@ -10,7 +10,7 @@ body {
 /* Menu de navigation */ 
 nav {
 	overflow: hidden;
-    background-color: #818586;
+    background-color: #ff0000;
 }
 
 nav ul {
@@ -38,13 +38,14 @@ a {
 }
 
 li a:hover {
-    background-color: #E65F49;
+    background-color: #aaaaaa;
 	padding: 8px;
+	color: #ff0000;
 }
 
 /* Encadrer menu de navigation*/
 .active {
-  	background-color: #C2C5C6;
+  	background-color: #aaaaaa;
 	padding: 8px;
 }
 
@@ -85,8 +86,10 @@ li a:hover {
   /*background: rgb(0, 0, 0); /* Fallback color */
   /*background: rgba(0, 0, 0, 0.2);  Black background with 0.5 opacity */
   /*color: #000000;  text en gris */
-	/*font-size: 36px;*/
+	/*font-size: 36px;
 }
+*/
+
 
 /* Logo */ 
 
