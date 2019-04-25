@@ -10,7 +10,7 @@ body {
 /* Menu de navigation */ 
 nav {
 	overflow: hidden;
-    background-color: #ff0000;
+	background-color: #ff0000;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ a {
 }
 
 li a:hover {
-    background-color: #aaaaaa;
+  background-color: #aaaaaa;
 	padding: 8px;
 	color: #ff0000;
 }
@@ -80,17 +80,6 @@ li a:hover {
 	width: 53%;
 }
 
-/*.entete-1 {
-	display: flex; /* Pour l'aligner avec le logo */
-  /*bottom: 0;  */
-  /*background: rgb(0, 0, 0); /* Fallback color */
-  /*background: rgba(0, 0, 0, 0.2);  Black background with 0.5 opacity */
-  /*color: #000000;  text en gris */
-	/*font-size: 36px;
-}
-*/
-
-
 /* Logo */ 
 
 .logo {
@@ -113,17 +102,8 @@ figure img {
 	height: 280px;
 }
 
-/* Description Images centrer */
+/* Description Images centrée */
 figure figcaption {
-	text-align: center;
-}
-
-/* Footer */
-footer {
-	margin-top: 50px;
-}
-
-footer p {
 	text-align: center;
 }
 
@@ -133,10 +113,10 @@ footer p {
 	display: flex; 
 	flex-direction: column;
 	align-items: center;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
-/* Legend Formulaire */
+/* Légende du formulaire */
 legend {
 	text-align: center;
 	font-size: 18px;
@@ -151,13 +131,21 @@ legend {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 16px;
-	margin: 20px 0px 50px 512px;
+	margin: 20px 0px 0px 495px;
+	width: 237px;
 }
 
-/* Darker background on mouse-over */
+/* Background foncé au survol avec la souris */
 .btn:hover {
   background-color: #de2b1f;
 } 
+
+/* Style bouton téléchargement pour petits écrans */
+@media screen and (max-width: 300px) {
+  .btn, {
+     width: 100%;
+  }
+}
 
 /* Style bouton Valider */
 .btn1 {
@@ -167,11 +155,153 @@ legend {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 16px;
-	margin-left: 20px;
+	margin-left: 19px;
 	margin-top: 10px;
 }
 
-/* Darker background on mouse-over */
+/* Background foncé au survol avec la souris */
 .btn1:hover {
   background-color: #de2b1f;
 } 
+
+/* Pied de page */
+footer {
+	margin-top: 50px;
+	background-color: #aaaaaa;
+}
+
+footer p {
+	text-align: center;
+}
+
+/* Form */
+/* Champs saisie largeur */
+input[name=user], input[name=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Ajout couleur background quand zone de saisie cliquée */
+input[name=user]:focus, input[name=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Définit un style pour les boutons du footer */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles pour le bouton Annuler */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.signupbtn {
+	background-color: limegreen;
+}
+
+/* Float pour le boutons Annuler et Valider et ajoute une largeur égale */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Ajoute du padding au container */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (le background) */
+.modal {
+  display: none; /* Caché par défaut */
+  position: fixed; /* Reste en place */
+  z-index: 1; /* Reste au dessus */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Autorise le scroll (défilement) si besoin */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Contenu Modal /Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+/* Style de l'axe horizontal */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* Le bouton Fermer (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Dépassement floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles pour boutons Valider et Annuler sur les petits écrans */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/* Fin bouton Connexion */
+
+#foot-1 {
+	text-align: center !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rights {
+	text-align: center;
+	color: white;
+}
+
+/* Style logo du footer */
+.imgfoot {
+	max-width: 150px;
+	height: auto;
+	margin-bottom: -40px;
+}

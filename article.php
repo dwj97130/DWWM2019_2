@@ -30,6 +30,11 @@
 				<select name="quantites" id="quantite">
 					<option value="1">1</option>
 					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
 					<option value="8">8</option>
 					<option value="9">9</option>
 					<option value="10">10</option>
@@ -50,9 +55,7 @@
 		<button class="btn"><i class="fa fa-download"></i> Télécharger images</button>
 		</a>
 		
-		<footer>
-				<p>Copyright &copy Gwadabat Didi & Fran 2019</p>
-		</footer>
-	<script src="myScript.js"></script> 
-	</body>
-</html>
+		<?php include 'footer.php'; ?>
+		
+		
+	
