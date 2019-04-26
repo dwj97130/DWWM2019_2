@@ -131,8 +131,9 @@ legend {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 16px;
-	margin: 20px 0px 0px 495px;
 	width: 237px;
+	margin: auto;
+	margin-top: 25px;
 }
 
 /* Background foncé au survol avec la souris */

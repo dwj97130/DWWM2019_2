@@ -48,12 +48,12 @@
 				</fieldset>
 				<input class="btn1" type="submit" value="Valider la commande"/> <!-- Bouton Sauvegarder -->
 			</form>
+					<a href="pdf/materiaux.pdf" download>
+					<button class="btn"><i class="fa fa-download"></i> Télécharger images</button>
+					</a>
 		</section>
 
 		<!-- Bouton téléchargement / Largeur auto -->
-		<a href="pdf/materiaux.pdf" download>
-		<button class="btn"><i class="fa fa-download"></i> Télécharger images</button>
-		</a>
 		
 		<?php include 'footer.php'; ?>
 		
