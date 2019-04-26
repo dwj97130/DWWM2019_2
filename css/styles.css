@@ -1,9 +1,21 @@
+/* Style pour petits écrans
+@media screen and (max-width: 600px) {
+  .flex {
+    display: none;
+		margin-right: 0;
+  }
+} */
+
 /* Général */
 
 body {
 	font-family: Georgia, sans-serif;
 	font-size: 16px;
 	background-color: #cccccc;
+	width: -webkit-fill-available;
+  width: -ms-fill-available;
+  width: -moz-available;
+  width: -intrinsic;
 }
 
 
@@ -73,6 +85,7 @@ li a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 }
 
 .entete-2 h3 + p {
@@ -140,13 +153,6 @@ legend {
 .btn:hover {
   background-color: #de2b1f;
 } 
-
-/* Style bouton téléchargement pour petits écrans */
-@media screen and (max-width: 300px) {
-  .btn, {
-     width: 100%;
-  }
-}
 
 /* Style bouton Valider */
 .btn1 {
