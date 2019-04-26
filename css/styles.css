@@ -1,15 +1,13 @@
-/* Style pour petits écrans
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .flex {
-    display: none;
-		margin-right: 0;
+    text-align: left;
+    margin: 0px;
   }
-} */
+}
 
 /* Général */
 
 body {
-	font-family: Georgia, sans-serif;
 	font-size: 16px;
 	background-color: #cccccc;
 	width: -webkit-fill-available;
