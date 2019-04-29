@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style = "--color: #e9e9e9"lang="fr">
+<html style = "--color: #e9e9e9; --posit: fixed; --width: 100%; --bottom: 0px;"lang="fr">
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>

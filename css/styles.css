@@ -1,4 +1,4 @@
-:root{ --color: none; }
+:root{ --color: none; --posit: none; --width: none; --bottom: none;}
 @media screen and (max-width: 640px) {
   .flex {
     text-align: left;
@@ -175,6 +175,10 @@ legend {
 footer {
 	margin-top: 50px;
 	background-color: var(--color);
+  height: 209px;
+  position: var(--posit);
+  bottom: var(--bottom);
+  width: var(--width);
 }
 
 footer p {
