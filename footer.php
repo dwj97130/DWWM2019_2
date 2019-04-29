@@ -9,7 +9,7 @@
 
 				<div id="id01" class="modal">
   				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  				<form class="modal-content" action="http://www.cid-gp.fr/index.php?&p=_prof&PHPSESSID=e96c3510b0189bda8785909f190b37bb" method="post">
+  				<form class="modal-content" action="#" method="post">
     				<div class="col-12" text-center>
 							<h2 class="heading">Connectez-vous</h2><br/>
 							<div class="heading-underline"></div>
