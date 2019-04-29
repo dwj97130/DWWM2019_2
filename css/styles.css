@@ -11,9 +11,10 @@ body {
 	font-size: 16px;
 	background-color: #cccccc;
 	width: -webkit-fill-available;
-  width: -ms-fill-available;
-  width: -moz-available;
-  width: -intrinsic;
+  	width: -ms-fill-available;
+  	width: -moz-available;
+ 	width: -intrinsic;
+ 	margin: 0;
 }
 
 
